@@ -1,0 +1,100 @@
+body {
+    background-color: #dfe0e1 !important;
+}
+
+.dropdown-user::after {
+  display: none !important;
+}
+
+.form-select.user {
+  height: 46px;
+}
+
+.form-select.user option {
+  appearance: none;
+  padding: 5px;
+}
+
+@media (max-width: 575.98px) {
+  .form-select.user {
+    width: 60% !important;
+  }
+}
+
+.user-nav {
+  gap: 1rem !important;
+}
+
+@media (max-width: 575.98px) {
+  .user-nav {
+    gap: 0.5rem !important;
+  }
+}
+
+.user-fab {
+  right: 5%;
+  bottom: 3%;
+}
+
+.user-fab > .btn-circle {
+  width: 60px;
+  height: 60px;
+}
+
+.user-fab > .btn-circle > i {
+  font-size: 26px !important;
+}
+
+.btn-circle {
+  width: 46px;
+  height: 46px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-circle > i {
+  font-size: 18px !important;
+}
+
+.btn-circle > span {
+  font-size: 18px !important;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.user-nav-item:hover a.nav-link {
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: scale(1.1);
+  border-color: rgb(13 202 240) !important;
+}
+
+.user-nav-item:hover a.nav-link > i,
+.user-nav-item:hover a.nav-link > span {
+  color: rgb(13 202 240) !important;
+}
+
+a.nav-link.show {
+  border-color: rgb(13 202 240) !important;
+  transform: scale(1.1);
+}
+
+a.nav-link.show > i,
+a.nav-link.show > span {
+  color: rgb(13 202 240) !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: 110% !important;
+}
+
+.integ-img {
+  width: 52px;
+  height: 52px;
+}
+
+.modal-open .modal-backdrop {
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1 !important;
+}
