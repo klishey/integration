@@ -33,7 +33,7 @@ export default function IntegrationContent() {
                                         <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
                                         <div className="clearfix mb-2"></div>
 
-                                        <h1 className="fs-3 fw-semibold text-center">Adding Integration Platform</h1>
+                                        <h1 className="fs-3 fw-bold text-center">Adding Integration Platform</h1>
 
                                         <p className="fs-6 text-center text-secondary">
                                             You will need a DoorDash account to continue this process.

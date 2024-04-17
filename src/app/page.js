@@ -52,9 +52,17 @@ export default async function Home() {
                   <div className="col-md-8">
                     <div className="card-body">
                       <h5 className="card-title fs-6 max-lines-2 text-uppercase letter-spacing" title={d.title}>{d.title}</h5>
-                      <p className="card-text fw-bold text-danger">$ {d.price}</p>
+                      <div className="card-text d-flex justify-content-between my-2">
+                        <small class="bg-secondary rounded px-2 py-1 fw-semibold text-light text-uppercase product-description">{d.category}</small>
+                        <span className="fw-bold text-danger">${d.price}</span>
+                      </div>
                       <p className="card-text max-lines-2 fs-6 text-secondary">{d.description}</p>
-                      <p className="card-text"><small class="bg-secondary rounded-5 px-3 py-1 text-light text-uppercase">{d.category}</small></p>
+
+                      <div className="my-2">
+                        <button className="btn btn-danger rounded-5">
+                          Buy Now
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>

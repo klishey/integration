@@ -32,7 +32,7 @@ export default function Navbar() {
                             <span className="text-dark">RJ</span>
                         </a>
 
-                        <ul className="dropdown-menu dropdown-menu-end">
+                        <ul className="dropdown-menu dropdown-menu-end fade">
 
                             <li><h6 class="dropdown-header fw-bold">Account</h6></li>
 

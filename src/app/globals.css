@@ -123,3 +123,7 @@ a.nav-link.show > span {
   height: 170px !important;
   object-fit: cover;
 }
+
+.product-description {
+  font-size: 10px !important;
+}
