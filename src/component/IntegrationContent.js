@@ -1,9 +1,9 @@
 export default function IntegrationContent() {
     return (
-        <div className="row row-cols-2 mt-4">
+        <div className="row row-cols-2">
 
             <div className="col-12 col-sm-6 mt-2">
-                <div className="card border border-0">
+                <div className="card border-0">
                     <div className="card-body d-flex justify-content-between">
 
                         <div className="d-flex gap-3">
@@ -33,7 +33,7 @@ export default function IntegrationContent() {
                                         <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
                                         <div className="clearfix mb-2"></div>
 
-                                        <h1 className="fs-4 fw-semibold text-center">Adding Integration Platform</h1>
+                                        <h1 className="fs-3 fw-semibold text-center">Adding Integration Platform</h1>
 
                                         <p className="fs-6 text-center text-secondary">
                                             You will need a DoorDash account to continue this process.
@@ -64,7 +64,7 @@ export default function IntegrationContent() {
             </div>
 
             <div className="col-12 col-sm-6 mt-2">
-                <div className="card border border-0">
+                <div className="card border-0">
                     <div className="card-body d-flex justify-content-between">
 
                         <div className="d-flex gap-3">
@@ -92,7 +92,7 @@ export default function IntegrationContent() {
             </div>
 
             <div className="col-12 col-sm-6 mt-2">
-                <div className="card border border-0">
+                <div className="card border-0">
                     <div className="card-body d-flex justify-content-between">
 
                         <div className="d-flex gap-3">
@@ -120,7 +120,7 @@ export default function IntegrationContent() {
             </div>
 
             <div className="col-12 col-sm-6 mt-2">
-                <div className="card border border-0">
+                <div className="card border-0">
                     <div className="card-body d-flex justify-content-between">
 
                         <div className="d-flex gap-3">

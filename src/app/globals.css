@@ -1,5 +1,5 @@
 body {
-    background-color: #dfe0e1 !important;
+  background-color: #dfe0e1 !important;
 }
 
 .dropdown-user::after {
@@ -97,4 +97,29 @@ a.nav-link.show > span {
   backdrop-filter: blur(5px);
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 1 !important;
+}
+
+.max-lines-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.max-lines-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.letter-spacing {
+  letter-spacing: .5px;
+}
+
+.product-image {
+  height: 170px !important;
+  object-fit: cover;
 }

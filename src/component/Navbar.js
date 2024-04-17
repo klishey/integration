@@ -1,7 +1,7 @@
 export default function Navbar() {
     return (
 
-        <nav className="navbar navbar-expand-lg bg-light-subtle py-4">
+        <nav className="navbar navbar-expand-lg bg-white py-4">
 
             <div className="container">
 
