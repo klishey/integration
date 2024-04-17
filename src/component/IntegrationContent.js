@@ -47,7 +47,7 @@ export default function IntegrationContent() {
                                         </p>
 
                                         <div className="d-flex justify-content-center gap-3 mt-5">
-                                            <button className="btn btn-transparent border border-primary text-primary px-4" data-bs-dismiss="modal">
+                                            <button className="btn btn-outline-primary rounded px-4" data-bs-dismiss="modal">
                                                 Cancel
                                             </button>
                                             <button className="btn btn-primary px-4">
