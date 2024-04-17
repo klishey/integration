@@ -34,7 +34,7 @@ export default async function Home() {
         {/* Content */}
         <IntegrationContent />
 
-        <div className="mt-5 mb-4">
+        <div className="my-5">
           <h1 className="fs-3">API Implementation <a className="fs-5" href="https://fakestoreapi.com">via fakestoreapi</a></h1>
           <p className="text-secondary">API call in <a href="https://fakestoreapi.com">fakestoreapi.com/products</a> to display products</p>
         </div>
@@ -51,9 +51,9 @@ export default async function Home() {
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
-                      <h5 className="card-title max-lines-2 text-uppercase letter-spacing">{d.title}</h5>
-                      <p className="card-text fw-bold">P {d.price}</p>
-                      <p className="card-text max-lines-2">{d.description}</p>
+                      <h5 className="card-title fs-6 max-lines-2 text-uppercase letter-spacing" title={d.title}>{d.title}</h5>
+                      <p className="card-text fw-bold text-danger">$ {d.price}</p>
+                      <p className="card-text max-lines-2 fs-6 text-secondary">{d.description}</p>
                       <p className="card-text"><small class="bg-secondary rounded-5 px-3 py-1 text-light text-uppercase">{d.category}</small></p>
                     </div>
                   </div>
@@ -63,11 +63,6 @@ export default async function Home() {
             </a>
           ))}
         </div>
-
-
-
-
-
 
         {/* Mobile Content */}
         <Fab />
