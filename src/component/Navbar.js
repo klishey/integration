@@ -5,7 +5,7 @@ export default function Navbar() {
 
             <div className="container">
 
-                <select className="form-select user w-25 border border-secondary-subtle rounded-5" aria-label="Select Store">
+                <select className="form-select user w-25 border border-secondary-subtle rounded-5 ps-4" aria-label="Select Store">
 
                     <option value="1" selected>2 Sisters Pizzeria</option>
                     <option value="2">Sam's Pizza Numbawan</option>
