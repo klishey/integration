@@ -5,7 +5,7 @@ import Navbar from "@/component/Navbar";
 import Image from 'next/image'
 
 async function getData() {
-  const res = await fetch('https://fakestoreapi.com/products?limit=5')
+  const res = await fetch('https://fakestoreapi.com/products?limit=10')
 
   if (!res.ok) {
     throw new Error('Failed to fetch data')
@@ -42,7 +42,7 @@ export default async function Home() {
 
         <div className="row row-cols-4 mb-5">
           {data.map((d, index) => (
-            <div className="col-12 col-sm-4" key={index}>
+            <a className="col-12 col-sm-4 text-decoration-none" key={index} href={'https://fakestoreapi.com/products/'+d.id}>
 
               <div className="card border-0 mb-3">
                 <div className="row g-0">
@@ -60,7 +60,7 @@ export default async function Home() {
                 </div>
               </div>
 
-            </div>
+            </a>
           ))}
         </div>
 
