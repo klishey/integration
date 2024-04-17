@@ -20,7 +20,7 @@ export default function IntegrationContent() {
                         </div>
 
                         <div className="align-self-center">
-                            <button type="button" class="btn btn-light ps-3 pe-4 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <button type="button" class="btn btn-light border border-secondary-subtle fw-bold ps-3 pe-4 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 <i class="bi bi-plus-lg me-1"></i>
                                 <span>Add</span>
                             </button>
