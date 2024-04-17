@@ -36,7 +36,7 @@ export default async function Home() {
 
         <div className="mt-5 mb-4">
           <h1 className="fs-3">API Implementation <a className="fs-5" href="https://fakestoreapi.com">via fakestoreapi</a></h1>
-          <p className="text-secondary">API call display</p>
+          <p className="text-secondary">API call in <a href="https://fakestoreapi.com">fakestoreapi.com/products</a> to display products</p>
         </div>
 
 
