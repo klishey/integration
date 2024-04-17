@@ -5,31 +5,39 @@ export default function Navbar() {
 
             <div className="container">
 
-                <select className="form-select user w-25 border border-primary rounded-5" aria-label="Default select example">
-                    <option selected className="fw-semibold text-secondary" disabled>Select Store</option>
-                    <option value="1">Sam's Pizza Numbawan</option>
-                    <option value="2">Test Alpha</option>
-                    <option value="3">Deliverit Portal</option>
+                <select className="form-select user w-25 border border-secondary-subtle rounded-5" aria-label="Select Store">
+
+                    <option value="1" selected>2 Sisters Pizzeria</option>
+                    <option value="2">Sam's Pizza Numbawan</option>
+                    <option value="3">Test Alpha</option>
+                    <option value="4">Deliverit Portal</option>
                 </select>
 
                 <div className="d-flex user-nav">
 
                     <div className="nav-item user-nav-item">
-                        <a className="nav-link bg-white border border-dark rounded-5 btn-circle" href="#">
+                        <a className="nav-link bg-white border border-secondary-subtle rounded-circle btn-circle position-relative" href="#">
                             <i className="bi bi-bell-fill text-dark"></i>
+                            <span class="position-absolute translate-middle notif rounded-circle bg-danger">
+                                <span class="fs-6 text-light">1</span>
+                            </span>
                         </a>
                     </div>
 
                     <div className="nav-item d-none d-sm-block user-nav-item">
-                        <a className="nav-link bg-white border border-dark rounded-5 btn-circle" href="#">
+                        <a className="nav-link bg-white border border-secondary-subtle rounded-5 btn-circle position-relative" href="#">
                             <i class="bi bi-rocket-takeoff-fill text-dark"></i>
+                            <span class="position-absolute translate-middle notif rounded-circle bg-danger">
+                                <span class="fs-6 text-light">1</span>
+                            </span>
                         </a>
                     </div>
 
                     <div className="nav-item dropdown user-nav-item">
 
-                        <a className="nav-link bg-white border border-dark rounded-5 btn-circle dropdown-toggle dropdown-user" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a className="nav-link bg-white border border-secondary-subtle rounded-5 btn-circle dropdown-toggle dropdown-user position-relative" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <span className="text-dark">RJ</span>
+                            <span class="position-absolute translate-middle status rounded-circle bg-success"></span>
                         </a>
 
                         <ul className="dropdown-menu dropdown-menu-end fade">

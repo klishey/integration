@@ -2,7 +2,7 @@ export default function IntegrationContent() {
     return (
         <div className="row row-cols-2">
 
-            <div className="col-12 col-sm-6 mt-2">
+            <div className="col-12 col-sm-6 mb-3">
                 <div className="card border-0">
                     <div className="card-body d-flex justify-content-between">
 
@@ -63,7 +63,7 @@ export default function IntegrationContent() {
                 </div>
             </div>
 
-            <div className="col-12 col-sm-6 mt-2">
+            <div className="col-12 col-sm-6 mb-3">
                 <div className="card border-0">
                     <div className="card-body d-flex justify-content-between">
 
@@ -91,7 +91,7 @@ export default function IntegrationContent() {
                 </div>
             </div>
 
-            <div className="col-12 col-sm-6 mt-2">
+            <div className="col-12 col-sm-6 mb-3">
                 <div className="card border-0">
                     <div className="card-body d-flex justify-content-between">
 
@@ -119,7 +119,7 @@ export default function IntegrationContent() {
                 </div>
             </div>
 
-            <div className="col-12 col-sm-6 mt-2">
+            <div className="col-12 col-sm-6 mb-3">
                 <div className="card border-0">
                     <div className="card-body d-flex justify-content-between">
 

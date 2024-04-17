@@ -46,8 +46,8 @@ body {
 }
 
 .btn-circle {
-  width: 46px;
-  height: 46px;
+  width: 56px;
+  height: 56px;
   display: flex !important;
   justify-content: center;
   align-items: center;
@@ -126,4 +126,24 @@ a.nav-link.show > span {
 
 .product-description {
   font-size: 10px !important;
+}
+
+.notif {
+  height: 26px;
+  width: 26px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  left: 90% !important;
+  top: 5% !important;
+}
+
+.status {
+  height: 16px;
+  width: 16px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  left: 85% !important;
+  top: 10% !important;
 }
