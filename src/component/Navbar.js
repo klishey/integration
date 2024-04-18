@@ -1,3 +1,5 @@
+import StoreSelect from "./StoreSelect";
+
 export default function Navbar() {
     return (
 
@@ -5,13 +7,14 @@ export default function Navbar() {
 
             <div className="container">
 
-                <select className="form-select user w-25 border border-secondary-subtle rounded-5 ps-4" aria-label="Select Store">
-
+                {/* <select className="form-select user w-25 border border-secondary-subtle rounded-5 ps-4" aria-label="Select Store">
                     <option value="1" selected>2 Sisters Pizzeria</option>
                     <option value="2">Sam's Pizza Numbawan</option>
                     <option value="3">Test Alpha</option>
                     <option value="4">Deliverit Portal</option>
-                </select>
+                </select> */}
+
+                <StoreSelect />
 
                 <div className="d-flex user-nav">
 

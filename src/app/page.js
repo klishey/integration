@@ -2,7 +2,7 @@ import Fab from "@/component/Fab";
 import IntegrationContent from "@/component/IntegrationContent";
 import Navbar from "@/component/Navbar";
 
-import Image from 'next/image'
+// import Image from 'next/image'
 
 async function getData() {
   const res = await fetch('https://fakestoreapi.com/products?limit=10')

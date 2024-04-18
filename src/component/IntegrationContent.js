@@ -11,7 +11,7 @@ export default function IntegrationContent() {
                             <img className="integ-img rounded-1" src="https://typetype.org/wp-content/uploads/Doordash_1.png" alt="door dash" />
 
                             <div className="d-flex flex-column align-self-center">
-                                <h6 className="fs-6 fw-semibold m-0">Door Dash</h6>
+                                <h6 className="fs-6 fw-bold m-0">Door Dash</h6>
                                 <small>
                                     <a href="#">Learn more</a>
                                 </small>
@@ -47,10 +47,10 @@ export default function IntegrationContent() {
                                         </p>
 
                                         <div className="d-flex justify-content-center gap-3 mt-5">
-                                            <button className="btn btn-outline-primary rounded px-4" data-bs-dismiss="modal">
+                                            <button className="btn btn-outline-secondary rounded px-5 py-3" data-bs-dismiss="modal">
                                                 Cancel
                                             </button>
-                                            <button className="btn btn-primary px-4">
+                                            <button className="btn btn-primary px-5 py-3">
                                                 Continue
                                             </button>
                                         </div>
@@ -72,18 +72,18 @@ export default function IntegrationContent() {
                             <img className="integ-img rounded-1" src="https://assets-global.website-files.com/60414b21f1ffcdbb0d5ad688/63cecf750aa7463091b17adf_5310366-uber-eats-logo-png-and-vector-logo-download-uber-eats-png-3500_3500_preview.png" alt="uber eats" />
 
                             <div className="d-flex flex-column align-self-center">
-                                <h6 className="fs-6 fw-semibold m-0">Uber Eats</h6>
+                                <h6 className="fs-6 fw-bold m-0">Uber Eats</h6>
                                 <small className="text-secondary">
-                                    Inactive
+                                    Active
                                 </small>
                             </div>
 
                         </div>
 
                         <div className="align-self-center">
-                            <span class="badge bg-danger-subtle px-3 pt-0 pb-2 rounded-5">
-                                <i className="fs-5 align-text-bottom text-danger"> &#x2022; </i>
-                                <span className="text-danger">Disconnected</span>
+                            <span class="badge bg-success-subtle px-3 pt-0 pb-2 rounded-5">
+                                <i className="fs-5 align-text-bottom text-success"> &#x2022; </i>
+                                <span className="text-success">Connected</span>
                             </span>
                         </div>
 
@@ -100,18 +100,18 @@ export default function IntegrationContent() {
                             <img className="integ-img rounded-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt9ToQpuBovz3_hN0Hmo0e9c86n9lOT7cQhOfbda9ELg&s" alt="Menulog" />
 
                             <div className="d-flex flex-column align-self-center">
-                                <h6 className="fs-6 fw-semibold m-0">Menulog</h6>
+                                <h6 className="fs-6 fw-bold m-0">Menulog</h6>
                                 <small className="text-secondary">
-                                    Inactive
+                                    Active
                                 </small>
                             </div>
 
                         </div>
 
                         <div className="align-self-center">
-                            <span class="badge bg-danger-subtle px-3 pt-0 pb-2 rounded-5">
-                                <i className="fs-5 align-text-bottom text-danger"> &#x2022; </i>
-                                <span className="text-danger">Disconnected</span>
+                            <span class="badge bg-success-subtle px-3 pt-0 pb-2 rounded-5">
+                                <i className="fs-5 align-text-bottom text-success"> &#x2022; </i>
+                                <span className="text-success">Connected</span>
                             </span>
                         </div>
 
@@ -125,10 +125,10 @@ export default function IntegrationContent() {
 
                         <div className="d-flex gap-3">
 
-                            <img className="integ-img rounded-1" src="https://cdn.dribbble.com/users/5334652/screenshots/17036009/media/e74f8b4a75f4b9597d7f9e786836d1c4.png" alt="google food" />
+                            <img className="integ-img rounded-1" src="https://media.licdn.com/dms/image/D4D22AQFxMCYFiC3FWg/feedshare-shrink_2048_1536/0/1694020072324?e=2147483647&v=beta&t=uEMwDJ-OCunC1a4Zn7LNxleIKqMypDv5If0H55cH4h0" alt="uber direct" />
 
                             <div className="d-flex flex-column align-self-center">
-                                <h6 className="fs-6 fw-semibold m-0">Google Food</h6>
+                                <h6 className="fs-6 fw-bold m-0">Uber Direct</h6>
                                 <small className="text-secondary">
                                     Active
                                 </small>
@@ -137,9 +137,9 @@ export default function IntegrationContent() {
                         </div>
 
                         <div className="align-self-center">
-                            <span class="badge bg-success-subtle px-3 pt-0 pb-2 rounded-5">
-                                <i className="fs-5 align-text-bottom text-success"> &#x2022; </i>
-                                <span className="text-success">Connected</span>
+                            <span class="badge bg-danger-subtle px-3 pt-0 pb-2 rounded-5">
+                                <i className="fs-5 align-text-bottom text-danger"> &#x2022; </i>
+                                <span className="text-danger">Disconnected</span>
                             </span>
                         </div>
 

@@ -21,6 +21,17 @@ body {
   }
 }
 
+.store-select {
+  /* height: 46px; */
+  width: 25%;
+}
+
+@media (max-width: 575.98px) {
+  .store-select {
+    width: 60% !important;
+  }
+}
+
 .user-nav {
   gap: 1rem !important;
 }
