@@ -157,3 +157,23 @@ a.nav-link.show > span {
   left: 85% !important;
   top: 10% !important;
 }
+
+.product-card {
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.product-card:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+}
+
+.custom-badge {
+  height: 38px;
+  padding-top: 0 !important;
+}
+
+.custom-dot {
+  font-size: 24px;
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+}

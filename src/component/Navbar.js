@@ -21,17 +21,17 @@ export default function Navbar() {
                     <div className="nav-item user-nav-item">
                         <a className="nav-link bg-white border border-secondary-subtle rounded-circle btn-circle position-relative" href="#">
                             <i className="bi bi-bell-fill text-dark"></i>
-                            <span class="position-absolute translate-middle notif rounded-circle bg-danger">
-                                <span class="fs-6 text-light">1</span>
+                            <span className="position-absolute translate-middle notif rounded-circle bg-danger">
+                                <span className="fs-6 text-light">1</span>
                             </span>
                         </a>
                     </div>
 
                     <div className="nav-item d-none d-sm-block user-nav-item">
                         <a className="nav-link bg-white border border-secondary-subtle rounded-5 btn-circle position-relative" href="#">
-                            <i class="bi bi-rocket-takeoff-fill text-dark"></i>
-                            <span class="position-absolute translate-middle notif rounded-circle bg-danger">
-                                <span class="fs-6 text-light">1</span>
+                            <i className="bi bi-rocket-takeoff-fill text-dark"></i>
+                            <span className="position-absolute translate-middle notif rounded-circle bg-danger">
+                                <span className="fs-6 text-light">1</span>
                             </span>
                         </a>
                     </div>
@@ -45,7 +45,7 @@ export default function Navbar() {
 
                         <ul className="dropdown-menu dropdown-menu-end fade">
 
-                            <li><h6 class="dropdown-header fw-bold">Account</h6></li>
+                            <li><h6 className="dropdown-header fw-bold">Account</h6></li>
 
                             <li>
                                 <a className="dropdown-item" href="#">
@@ -59,7 +59,7 @@ export default function Navbar() {
                                 </a>
                             </li>
 
-                            <li><hr class="dropdown-divider" /></li>
+                            <li><hr className="dropdown-divider" /></li>
 
                             <li>
                                 <a className="dropdown-item d-flex gap-2 disabled" href="#">

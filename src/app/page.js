@@ -42,27 +42,28 @@ export default async function Home() {
 
         <div className="row row-cols-4 mb-5">
           {data.map((d, index) => (
-            <a className="col-12 col-sm-4 text-decoration-none" key={index} href={'https://fakestoreapi.com/products/'+d.id}>
+            <a className="col-12 col-sm-4 text-decoration-none" key={index} href={'https://fakestoreapi.com/products/' + d.id}>
 
-              <div className="card border-0 mb-3">
+              <div className="card product-card shadow-sm border-0 mb-3">
                 <div className="row g-0">
-                  <div className="col-md-4 p-4 d-flex justify-content-center">
+                  <div className="col-12 p-4 d-flex justify-content-center">
                     <img src={d.image} className="img-fluid product-image rounded-start" alt={d.title} />
                   </div>
-                  <div className="col-md-8">
+                  <div className="col-12">
                     <div className="card-body">
                       <h5 className="card-title fs-6 max-lines-2 text-uppercase letter-spacing" title={d.title}>{d.title}</h5>
-                      <div className="card-text d-flex justify-content-between my-2">
+                      <div className="card-text d-flex justify-content-between my-3">
                         <small class="bg-secondary rounded px-2 py-1 fw-semibold text-light text-uppercase product-description">{d.category}</small>
                         <span className="fw-bold text-danger">${d.price}</span>
                       </div>
-                      <p className="card-text max-lines-2 fs-6 text-secondary">{d.description}</p>
 
-                      <div className="my-2">
-                        <button className="btn btn-danger rounded-5">
-                          Buy Now
-                        </button>
-                      </div>
+                      <p className="card-text max-lines-2 mt-4 fs-6 text-secondary">{d.description}</p>
+
+                    </div>
+                    <div className="card-footer p-4 my-2">
+                      <button className="btn btn-danger px-4 rounded-5">
+                        Buy Now
+                      </button>
                     </div>
                   </div>
                 </div>
